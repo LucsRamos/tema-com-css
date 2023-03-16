@@ -1,14 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
 body {
+    background-image: url("https://i.pinimg.com/originals/c2/37/76/c237765a0e3b8f33c60e5b1f63955a56.jpg");
+    background-size: cover;
 }
 
 main#container {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 30px;
+    border: double;
+    border-width: 10px;
+    border-color: white;
+    color: white;
+    background-size: cover;
 }
 
 h1.titulo {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+    color: aqua;
 }
 
 p.frase {
+    font-family: 'Vast Shadow', cursive;
 }
 
 p.autor {
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
